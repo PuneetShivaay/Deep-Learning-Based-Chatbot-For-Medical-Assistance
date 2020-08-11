@@ -26,5 +26,6 @@ run python chatbot_gui.py
 
 # Details
 chatbot_train.py is a python file in which we train the model with the help of available dataset.
+
 Dataset is stored in the json file (intents.json).
 chatbot_gui.py is a file which will open a GUI prompt where user can talk with chatbot and interact with it.
