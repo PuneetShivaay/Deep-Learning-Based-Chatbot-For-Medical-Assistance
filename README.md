@@ -1,5 +1,5 @@
 # Medical-Chatbot
-It is Deep Learning based chatbot model used for medical assistance.The project is based on a Chatbot for diagnosis of diseases. All diseases have a set of associated symptoms. The patient needs to enter the observed symptoms and the Chatbot can recognize the disease. Whenever someone has some disease the human body responds to it by giving symptoms. These symptoms can point towards a particular disease.
+It is Deep Learning based chatbot model used for medical assistance. The project is based on a Chatbot for diagnosis of diseases. All diseases have a set of associated symptoms. The patient needs to enter the observed symptoms and the Chatbot can recognize the disease. Whenever someone has some disease the human body responds to it by giving symptoms. These symptoms can point towards a particular disease.
 
 The system is works on the principle of artificial neural networks which simulate human thinking and reasoning. These networks work like the neurons in our brain and simulate medical reasoning. 
  
