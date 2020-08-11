@@ -1,0 +1,262 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Hi there, how can I help?"],
+         "context_set": [""]
+        },
+        
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me bot.", "I'm bot!", "I'm bot."],
+         "context_set": [""]
+        },
+        
+        {"tag": "problem_solving",
+        "patterns": ["i need help","help me","tell me","i have some problem","problem","can you help me?"],
+        "responses": ["yes i can help you","tell me what can i do for you","what do you want me to do","how can i help you","what kind of help do you need","tell me"],
+        "context_set": [""]
+        },
+        {
+        	"tag":"jaundice",
+        	"patterns":["yellow skin","yellowish white part of eye","itching of the skin","light colored stools","dark colored urine"],
+        	"responses":["you might be suffering from jaundice"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"emotional problems",
+        	"patterns":["anxiety", "depression fatigue", "feeling tense", "flashbacks and nightmares", "disinterest in regular activities", "suicidal thoughts", "hallucinations", "delusions"],
+        	"responses":["you might be suffering from emotional problems"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"headache problems",
+        	"patterns":[" dizziness", "nausea", "vomiting", "inability to walk"],
+        	"responses":["you might be suffering from headache problems"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"appendicitis",
+        	"patterns":["feeling sick (nausea)","being sick","loss of appetite","diarrhoea","a high temperature (fever) and a flushed face"],
+        	"responses":["you might be suffering from appendicitis"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"anal cancer",
+        	"patterns":["bleeding from the bottom (rectal bleeding)","itching and pain around the anus","small lumps around the anus","a discharge of mucus from the anus","loss of bowel control "],
+        	"responses":["you might be suffering from anal cancer"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"allergy",
+        	"patterns":[" sneezing and an itchy, runny or blocked nose","itchy, red, watering eyes","wheezing, chest tightness, shortness of breath and a cough","a raised, itchy, red rash (hives)","swollen lips, tongue, eyes or face","tummy pain, feeling sick, vomiting or diarrhoea","dry, red and cracked skin"],
+        	"responses":["you might be suffering from allergy"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"alcohol-related liver disease",
+        	"patterns":[" abdominal pain","loss of appetite","fatigue","feeling sick","diarrhoea","feeling generally unwell","yellowing of the skin and whites of the eyes (jaundice)","swelling in the legs, ankles and feet, due to a build-up of fluid","swelling in your abdomen, due to a build-up of fluid known as ascites","a high temperature (fever) and shivering attacks","very itchy skin","hair loss","unusually curved fingertips and nails (clubbed fingers)","blotchy red palms","significant weight loss","weakness and muscle wasting","confusion and memory problems, trouble sleeping (insomnia) and changes in your personality due to a build-up of toxins in the brain","vomiting blood and black, tarry stools due to internal bleeding","a tendency to bleed and bruise more easily, such as frequent nosebleeds and bleeding gums","increased sensitivity to alcohol and drugs"],
+        	"responses":["you might be suffering from alcohol-related liver disease"],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"bladder cancer",
+        	"patterns":[" a need to urinate on a more frequent basis","sudden urges to urinate","a burning sensation when passing urine"],
+        	"responses":["you might be suffering from bladder cancer"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"dehydration",
+        	"patterns":["izziness", "light headedness","headache","tiredness","dry mouth", "dry lips","dry eyes","passing small amounts of urine infrequently"],
+        	"responses":["you might be suffering from dehydration"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"diabetic retinopathy",
+        	"patterns":["gradually worsening vision","sudden vision loss","shapes floating in field of vision (floaters)","blurred vision"," patchy vision","eye pain or redness"],
+        	"responses":["you might be suffering from diabetic retinopathy"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"type 2 diabetes",
+        	"patterns":["rinating more often than usual, particularly at night","feeling very thirsty","feeling very tired","unexplained weight loss","itchiness around the genital area","cuts or wounds that heal slowly","blurred vision"],
+        	"responses":["you might be suffering from type 2 diabetes"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"type 1 diabetes",
+        	"patterns":["feeling very thirsty","urinating more frequently than usual","urinating particularly at night","feeling very tired","weight loss","loss of muscle bulk","itchiness around the genital area","regular bouts of thrush","blurred vision","the lens of eye changing shape"],
+        	"responses":["you might be suffering from type 1 diabetes"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"Hypoglycaemia",
+        	"patterns":["feeling shaky and irritable","sweating","tingling lips","feeling weak","feeling confused","hunger","nausea","feeling sick"],
+        	"responses":["you might be suffering from Hypoglycaemia (low blood glucose)"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"Hyperglycaemia",
+        	"patterns":["extreme thirst","a dry mouth","blurred vision","drowsiness","need to pass urine frequently"],
+        	"responses":["you might be suffering from Hyperglycaemia (high blood glucose)"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"diarrhoea",
+        	"patterns":["stomach cramps","nausea","vomiting","headache","loss of appetite"],
+        	"responses":["you might be suffering from diarrhoea"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"Ebola",
+        	"patterns":["high temperature fever","headache","joint and muscle pain","sore throat","severe muscle weakness"],
+        	"responses":["you might be suffering from headache Ebola"],
+        	"context_set":[""]
+
+        },
+	
+	
+	{
+        	"tag":"kidney cancer",
+        	"patterns":["extreme tiredness (fatigue) or anaemia","unintentional weight loss","a high temperature of 38C (100.4F) or above","night sweats","general sense of feeling unwell","swelling of the veins in the testicles (in men)","loss of appetite","high blood pressure (hypertension)"],
+        	"responses":["you might be suffering from kidney cancer"],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"glandular fever",
+        	"patterns":["a high temperature fever","sore throat","swollen glands","fatigue","extreme tiredness"],
+        	"responses":["you might be suffering from glandular fever"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"hay fever",
+        	"patterns":["frequent sneezing","runny nose"," blocked nose","itchy, red or watery eyes","itchy throat, mouth, nose and ears" , "cough"],
+        	"responses":["you might be suffering from hay fever"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"fibromyalgia",
+        	"patterns":["widespread pain"],
+        	"responses":["you might be suffering from fibromyalgia"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"eye cancer",
+        	"patterns":["shadows, flashes of light, or wiggly lines in your vision","blurred vision","a dark patch in eye","partial or total loss of vision","bulging of one eye","lump on eyelid or in eye that's increasing in size","pain in or around eye"],
+        	"responses":["you might be suffering from eye cancer"],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"COVID-19",
+        	"patterns":["have a new cough that’s lasted for an hour","have had 3 or more episodes of coughing in 24 hours","are coughing more than usual","a new continuous cough"," a fever/high temperature (37.8C or greater)"],
+        	"responses":["you might be suffering from COVID-19"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"common cold",
+        	"patterns":["a sore throat","a blocked or runny nose","sneezing","a cough","a hoarse voice","generally feeling unwell"],
+        	"responses":["you might be suffering from common cold"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"chickenpox",
+        	"patterns":["feeling sick","a high temperature (fever) of 38C (100.4F) or over","aching, painful muscles","headache","generally feeling unwell","loss of appetite"],
+        	"responses":["you might be suffering from chickenpox"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"stroke",
+        	"patterns":[" facial drooping", "arm weakness", "difficulty with speech", "rapidly developing dizziness or balance", "sudden numbness or weakness", "loss of vision", "confusion", " severe headache"],
+        	"responses":["you might be suffering from stroke"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"breast problems",
+        	"patterns":["  nipple discharge", "unusual breast tenderness or pain", "breast or nipple skin changes",  "lump or thickening in or near breast or in the underarm area."],
+        	"responses":["you might be suffering from breast problems"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"reproductive health problems",
+        	"patterns":[" bleeding or spotting between periods", "itching, burning, or irritation genital area", "pain or discomfort during sex", "heavy or painful menstrual bleeding"," severe pelvic/abdominal pain", "unusual vaginal discharge", "feeling of fullness in the lower abdomen", " frequent urination or urinary urgency"],
+        	"responses":["you might be suffering from reproductive health problems"],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"lung problems",
+        	"patterns":["  coughing up blood", "shortness of breath", "difficulty breathing", "chronic cough", "repeated bouts of bronchitis or pneumonia", "wheezing."],
+        	"responses":["you might be suffering from lung problems"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"bladder problems",
+        	"patterns":["difficult or painful urination", "frequent urination", "loss of bladder control", "blood in urine", "waking frequently at night to urinate",  "wetting the bed at night", "leaking urine."],
+        	"responses":["you might be suffering from bladder problems"],
+        	"context_set":[""]
+
+        },
+
+	{
+        	"tag":"eating or weight problems",
+        	"patterns":["extreme thirst", "dehydration", "excessive hunger", "losing weight without trying", "binging, vomiting", "starvation", "preoccupation with food and weight", "distorted body image", "compulsive exercise", "abuse of laxatives or diet pills", "depression"],
+        	"responses":["you might be suffering from eating or weight problems"],
+        	"context_set":[""]
+
+        },
+        {
+        	"tag":"influenza",
+        	"patterns":["headache","pain in the head","cough","fever","snizing","runny nose","sore throat","pain in throat","itching throat"],
+        	"responses":["you might be suffering from influeza","you might be suffering from flu"],
+        	"context_set":[""]
+        },
+        {
+            "tag":"asthma",
+            "patterns":["shortness of breath","chest pain or tightness","cough","snizing"],
+            "responses":["you might be suffering from asthma"],
+            "context_set":[""]
+        },
+        {
+            "tag":"hepatitis_B",
+            "patterns":["abdominal pain","fever","dark urine","joint pain","loss of apetite","nausea and vomitting","weakness and fatigue","yellowing of skin","jaundice"],
+            "responses":["you might be suffering from hepatitis_B"],
+            "context_set":[""]
+        },
+        {
+            "tag":"Dengue",
+            "patterns":["headache","fever","muscle pain","joint pain","pain behind eyes","nausea and vomitting","rashes","minor bleeding from gums or nose "],
+            "responses":["you might be suffering from Dengue"],
+            "context_set":[""]
+        }
+		
+   ]
+}
